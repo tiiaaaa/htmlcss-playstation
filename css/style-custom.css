@@ -12,9 +12,16 @@ div#sony-bar > img{
 /* MAIN */
 section#jumbotron{
     height: calc(100vh - 112px);
-    background-color: rgb(32, 180, 32);
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+section#jumbotron div.jb-banner{
+    bottom: 50px;
+    left: 50px;
 }
 
 div.game-banner{
-    width: 50%;
+    width: 250px;
 }
