@@ -1,0 +1,10 @@
+/* HEADER */
+div#sony-bar{
+    width: 100%;
+    height: 36px;
+    background-color: black;
+}
+
+div#sony-bar > img{
+    width: 80px;
+}
