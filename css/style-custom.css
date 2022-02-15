@@ -8,3 +8,13 @@ div#sony-bar{
 div#sony-bar > img{
     width: 80px;
 }
+
+/* MAIN */
+section#jumbotron{
+    height: calc(100vh - 112px);
+    background-color: rgb(32, 180, 32);
+}
+
+div.game-banner{
+    width: 50%;
+}
