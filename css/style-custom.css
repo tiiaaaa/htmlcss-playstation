@@ -1,27 +1,33 @@
 /* HEADER */
-div#sony-bar{
+div#my-sony-bar{
     width: 100%;
     height: 36px;
     background-color: black;
 }
 
-div#sony-bar > img{
+div#my-sony-bar > img{
     width: 80px;
 }
 
 /* MAIN */
-section#jumbotron{
+section#my-jumbotron{
     height: calc(100vh - 112px);
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
 }
 
-section#jumbotron div.jb-banner{
+section#my-jumbotron div.my-jb-banner{
     bottom: 50px;
     left: 50px;
 }
 
-div.game-banner{
+div.my-game-banner{
     width: 250px;
+}
+
+/* Row (3) */
+div.my-gadjet{
+    width: calc(100% / 5);
+    min-width: 130px;
 }

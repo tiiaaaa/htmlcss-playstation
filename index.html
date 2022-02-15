@@ -17,7 +17,7 @@
 <body>
     <div class="container-fluid">
         <!-- Barra del logo Sony -->
-        <div id="sony-bar" class="d-flex justify-content-end px-3">
+        <div id="my-sony-bar" class="d-flex justify-content-end px-3">
             <img src="img/sony_logo.svg" alt="logo Sony">
         </div>
         <!-- Header con Navbar -->
@@ -89,12 +89,12 @@
 
         <main>
             <!-- Jumbotron -->
-            <section id="jumbotron" class="position-relative">
+            <section id="my-jumbotron" class="position-relative mb-5">
                 <!-- Row -->
-                <div class="row position-absolute jb-banner">
+                <div class="row position-absolute my-jb-banner">
                     <!-- Col -->
                     <div class="col-10 col-md-8 col-lg-6 col-xl-5 text-white">
-                        <div class="game-banner">
+                        <div class="my-game-banner">
                             <img class="img-fluid" src="img/returnal-hero-banner-logo.png" alt="logo videogame Returnal">
                         </div>
                         <h1>Rompi il cerchio</h1>
@@ -104,10 +104,11 @@
                     </div>
                 </div>
             </section>
-
-            <section class="container my-5">
-                <!-- Row con le 6 mini immagini -->
-                <div class="row gy-4">
+            
+            <!-- Seconda Sezione wrappata in un container -->
+            <section id="my-console" class="container">
+                <!-- Row (1) con le 6 mini immagini -->
+                <div class="row mb-5 gy-4">
                     <div class="col-6 col-sm-4 col-lg-2 col-xl-2">
                         <img class="img-fluid img-thumbnail" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Video game Returnal">
                     </div>
@@ -132,6 +133,86 @@
                         <img class="img-fluid img-thumbnail" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Video game Returnal">
                     </div>
                     
+                </div>
+                
+                <!-- Row (2) con my-jumbo-box centrato con testo -->
+                <div class="row justify-content-center mb-5">
+                    <div class="col-12 col-md-10 col-lg-6 text-center my-jumbo-box">
+                        <span>play has no limits</span>
+                        <h1>Ecco la Playstation 5</h1>
+                        <p>tuffati in nuove possibilità di gioco completamente inaspettate</p>
+
+                    </div>
+                </div>
+
+                <!-- Row (3) con all'inetrno 2 col responsive -->
+                <div class="row">
+                    <!-- Col sinistra con testo -->
+                    <div class="col-12 col-md-5 d-flex align-items-center">
+                        <div>
+                            <h1>Console Playstation 5</h1>
+                            <p>Sperimenta la nuova generazione di incredibili giochi PlayStation</p>
+                            <button type="button" class="btn btn-primary rounded-pill">Maggiori Informazioni</button>
+                        </div>
+                    </div>
+                    <!-- Col destra con immagine console -->
+                    <div class="col-12 col-md-7">
+                        <img class="img-fluid" src="img/playstation-5-thumb.png" alt="Console + Joypad">
+                    </div>
+                </div>
+
+                <!-- Row (4) con le 5 img dei gadjet console -->
+                <div class="row flex-wrap">
+                    <div class="my-gadjet">
+                        <div class="p-4">
+                            <img class="img-fluid" src="img/playstation-5-thumb.png" alt="Console + Joypad">
+                        </div>
+
+                        <div class="my-mini-text text-center">
+                            <span>Console PS5</span>
+                        </div>                        
+                    </div>
+
+                    <div class="my-gadjet">
+                        <div class="p-4">
+                            <img class="img-fluid" src="img/joypad-thumb.png" alt="Joypad">
+                        </div>
+
+                        <div class="my-mini-text text-center">
+                            <span>Controller wireless Dualsense</span>
+                        </div>                       
+                    </div>
+
+                    <div class="my-gadjet">
+                        <div class="p-4">
+                            <img class="img-fluid" src="img/headset-thumb.png" alt="Headphones">
+                        </div>
+
+                        <div class="my-mini-text text-center">
+                            <span>Console PS5</span>
+                        </div>                        
+                    </div>
+
+                    <div class="my-gadjet">
+                        <div class="p-4">
+                            <img class="img-fluid" src="img/remote-thumb.png" alt="Controller">
+                        </div>
+
+                        <div class="my-mini-text text-center">
+                            <span>Console PS5</span>
+                        </div>                        
+                    </div>
+
+                    <div class="my-gadjet">
+                        <div class="p-4">
+                            <img class="img-fluid" src="img/camera-thumb.jpg" alt="Camera">
+                        </div>
+
+                        <div class="my-mini-text text-center">
+                            <span>Console PS5</span>
+                        </div>                        
+                    </div>
+
                 </div>
             </section>
         </main>
