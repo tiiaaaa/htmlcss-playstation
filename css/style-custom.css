@@ -18,7 +18,7 @@ section#my-jumbotron{
 }
 
 div.my-jb-banner{
-    top: 350px;
+    top: 300px;
 }
 
 div.my-game-banner{
@@ -39,11 +39,21 @@ section#my-jmbtr-banner{
     background-position: center;
 }
 
+/* QUARTA SEZIONE My-jmbtr-Card */
+section#my-jmbtr-card{
+    background-color: rgb(46, 42, 42);
+}
+
+div.my-jmbtr-card{
+    width: calc((100% / 6) - .5rem);
+    border: 1px solid black;
+}
+
 
 
 
 /* MEDIE QUERY */
-/* Medie x Row (3) */
+/* SECONDA SEZIONE My Console - Medie x Row (3) */
 @media screen and (max-width: 576px){
     div.my-gadjet{
         width: calc(100% / 3);
@@ -53,5 +63,18 @@ section#my-jmbtr-banner{
 @media screen and (max-width: 768px){
     div.my-gadjet{
         width: calc(100% / 3);
+    }
+}
+
+/* QUARTA SEZIONE My-jmbtr-Card */
+@media screen and (max-width: 992px){
+    div.my-jmbtr-card{
+        width: calc((100% / 3) - .5rem);
+    }
+}
+
+@media screen and (max-width: 576px){
+    div.my-jmbtr-card{
+        width: calc((100% / 2) - .5rem);
     }
 }
