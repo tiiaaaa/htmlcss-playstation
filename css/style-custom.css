@@ -1,3 +1,13 @@
+/* Classi x COLORE BACKGROUND */
+.bck-light-grey{
+    background-color: lightgrey;
+}
+
+.bck-dark-blue{
+    background-color: darkblue;
+}
+
+
 /* HEADER */
 div#my-sony-bar{
     width: 100%;
@@ -54,12 +64,8 @@ div.my-game-card{
     /* border: 1px solid black; */
 }
 
-/* QUINTA SEZIONE  */
-section#my-plus-service{
-    background-color: lightgrey;
-}
-
-img#plus-img{
+/* SESTA SEZIONE  */
+img.plus-img{
     width: 400px;
 }
 
