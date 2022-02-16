@@ -25,12 +25,19 @@ div.my-game-banner{
     width: 250px;
 }
 
+/* SECONDA SEZIONE My Console */
 /* Row (3) */
 div.my-gadjet{
     width: calc(100% / 5);
     min-width: 130px;
 }
 
+/* TERZA SEZIONE My-jmbtr-Banner */
+section#my-jmbtr-banner{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
 
 
