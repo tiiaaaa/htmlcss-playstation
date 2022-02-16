@@ -46,9 +46,8 @@ section#my-jmbtr-card{
 
 div.my-jmbtr-card{
     width: calc((100% / 6) - .5rem);
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
-
 
 
 
@@ -67,12 +66,14 @@ div.my-jmbtr-card{
 }
 
 /* QUARTA SEZIONE My-jmbtr-Card */
+/* Modifica la dimensione degli elementi quando la grandezza della viewport è da 0 a 992px */
 @media screen and (max-width: 992px){
     div.my-jmbtr-card{
         width: calc((100% / 3) - .5rem);
     }
 }
 
+/* Modifica la dimensione degli elementi quando la grandezza della viewport da 0 a 576px */
 @media screen and (max-width: 576px){
     div.my-jmbtr-card{
         width: calc((100% / 2) - .5rem);
