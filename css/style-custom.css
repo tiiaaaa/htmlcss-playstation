@@ -54,6 +54,15 @@ div.my-game-card{
     /* border: 1px solid black; */
 }
 
+/* QUINTA SEZIONE  */
+section#my-plus-service{
+    background-color: lightgrey;
+}
+
+img#plus-img{
+    width: 400px;
+}
+
 
 
 /* MEDIE QUERY */
