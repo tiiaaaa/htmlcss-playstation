@@ -21,7 +21,7 @@ div.my-jb-banner{
     top: 300px;
 }
 
-div.my-game-banner{
+div.my-jb-text{
     width: 250px;
 }
 
@@ -32,19 +32,24 @@ div.my-gadjet{
     min-width: 130px;
 }
 
-/* TERZA SEZIONE My-jmbtr-Banner */
-section#my-jmbtr-banner{
+/* TERZA SEZIONE My-Game-Banner */
+section#my-game-banner{
+    /* height: 70vh; */
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     background-position: center;
 }
 
-/* QUARTA SEZIONE My-jmbtr-Card */
-section#my-jmbtr-card{
+img.my-game-img{
+    width: 220px;
+}
+
+/* QUARTA SEZIONE My-Game-Card */
+section#my-game-sec{
     background-color: rgb(46, 42, 42);
 }
 
-div.my-jmbtr-card{
+div.my-game-card{
     width: calc((100% / 6) - .5rem);
     /* border: 1px solid black; */
 }
@@ -65,17 +70,17 @@ div.my-jmbtr-card{
     }
 }
 
-/* QUARTA SEZIONE My-jmbtr-Card */
+/* QUARTA SEZIONE My-Game-Card */
 /* Modifica la dimensione degli elementi quando la grandezza della viewport è da 0 a 992px */
 @media screen and (max-width: 992px){
-    div.my-jmbtr-card{
+    div.my-game-card{
         width: calc((100% / 3) - .5rem);
     }
 }
 
 /* Modifica la dimensione degli elementi quando la grandezza della viewport da 0 a 576px */
 @media screen and (max-width: 576px){
-    div.my-jmbtr-card{
+    div.my-game-card{
         width: calc((100% / 2) - .5rem);
     }
 }
