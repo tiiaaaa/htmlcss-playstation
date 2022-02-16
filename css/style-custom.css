@@ -17,9 +17,8 @@ section#my-jumbotron{
     background-position: center;
 }
 
-section#my-jumbotron div.my-jb-banner{
-    bottom: 50px;
-    left: 50px;
+div.my-jb-banner{
+    top: 350px;
 }
 
 div.my-game-banner{
@@ -30,4 +29,22 @@ div.my-game-banner{
 div.my-gadjet{
     width: calc(100% / 5);
     min-width: 130px;
+}
+
+
+
+
+
+/* MEDIE QUERY */
+/* Medie x Row (3) */
+@media screen and (max-width: 576px){
+    div.my-gadjet{
+        width: calc(100% / 3);
+    }
+}
+
+@media screen and (max-width: 768px){
+    div.my-gadjet{
+        width: calc(100% / 3);
+    }
 }
