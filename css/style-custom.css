@@ -69,6 +69,18 @@ img.plus-img{
     width: 400px;
 }
 
+/* FOOTER */
+section#social{
+    height: 400px;
+}
+
+div.social-app{
+    width: calc(100% / 8);
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
+
 
 
 /* MEDIE QUERY */
@@ -97,5 +109,24 @@ img.plus-img{
 @media screen and (max-width: 576px){
     div.my-game-card{
         width: calc((100% / 2) - .5rem);
+    }
+}
+
+/* MEDIE FOOTER */
+@media screen and (max-width: 576px){
+    div.social-app{
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+    div.social-app{
+        width: calc(100% / 4);
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    div.social-app{
+        width: calc(100% / 5);
     }
 }
