@@ -7,6 +7,10 @@
     background-color: darkblue;
 }
 
+.bck-light-black{
+    background-color:  rgb(46, 42, 42) ;
+}
+
 
 /* HEADER */
 div#my-sony-bar{
@@ -36,11 +40,7 @@ div.my-jb-text{
 }
 
 /* SECONDA SEZIONE My Console */
-/* Row (3) */
-div.my-gadjet{
-    width: calc(100% / 5);
-    min-width: 130px;
-}
+
 
 /* TERZA SEZIONE My-Game-Banner */
 section#my-game-banner{
@@ -52,16 +52,6 @@ section#my-game-banner{
 
 img.my-game-img{
     width: 220px;
-}
-
-/* QUARTA SEZIONE My-Game-Card */
-section#my-game-sec{
-    background-color: rgb(46, 42, 42);
-}
-
-div.my-game-card{
-    width: calc((100% / 6) - .5rem);
-    /* border: 1px solid black; */
 }
 
 /* SESTA SEZIONE  */
@@ -85,7 +75,7 @@ div.social-app{
 
 /* MEDIE QUERY */
 /* SECONDA SEZIONE My Console - Medie x Row (3) */
-@media screen and (max-width: 576px){
+/* @media screen and (max-width: 576px){
     div.my-gadjet{
         width: calc(100% / 3);
     }
@@ -95,22 +85,22 @@ div.social-app{
     div.my-gadjet{
         width: calc(100% / 3);
     }
-}
+} */
 
 /* QUARTA SEZIONE My-Game-Card */
 /* Modifica la dimensione degli elementi quando la grandezza della viewport è da 0 a 992px */
-@media screen and (max-width: 992px){
+/* @media screen and (max-width: 992px){
     div.my-game-card{
         width: calc((100% / 3) - .5rem);
     }
-}
+} */
 
 /* Modifica la dimensione degli elementi quando la grandezza della viewport da 0 a 576px */
-@media screen and (max-width: 576px){
+/* @media screen and (max-width: 576px){
     div.my-game-card{
         width: calc((100% / 2) - .5rem);
     }
-}
+} */
 
 /* MEDIE FOOTER */
 @media screen and (max-width: 576px){
