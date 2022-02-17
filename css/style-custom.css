@@ -57,8 +57,14 @@ img.plus-img{
 }
 
 /* FOOTER */
-section#social{
-    height: 400px;
+img#play-footer-logo{
+    width: 20%;
+    min-width: 130px;
+}
+
+img#sie-footer-logo{
+    width: 25%;
+    min-width: 110px;
 }
 
 
@@ -80,3 +86,9 @@ section#social{
         width: calc(100% / 5);
     }
 } */
+
+.riempitore{
+    height: 150px;
+    background-color: bisque;
+    border: 1px solid black;
+}
