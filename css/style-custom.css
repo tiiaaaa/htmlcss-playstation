@@ -1,3 +1,7 @@
+.my-txt-grey{
+    color: gray;
+}
+
 /* Classi x COLORE BACKGROUND */
 .bck-light-grey{
     background-color: lightgrey;
@@ -39,6 +43,26 @@ div.my-jb-text{
     width: 250px;
 }
 
+/* 2ND SECTION */
+div.my-gme-icon:hover{
+    box-shadow: 0px 10px 10px rgb(14, 1, 1);
+}
+
+i.fa-trademark{
+    font-size: .7rem;
+}
+
+div.my-btm{
+    display: none;
+    width: 95%;
+    height: 3px;
+    background-color: rgb(50, 50, 201);
+}
+
+div.my-gadjet:hover div.my-btm{
+    display: block;
+}
+
 /* TERZA SEZIONE My-Game-Banner */
 section#my-game-banner{
     /* height: 70vh; */
@@ -67,28 +91,3 @@ img#sie-footer-logo{
     min-width: 110px;
 }
 
-
-/* MEDIE FOOTER */
-/* @media screen and (max-width: 576px){
-    div.social-app{
-        width: calc(100% / 2);
-    }
-}
-
-@media screen and (min-width: 577px) and (max-width: 768px){
-    div.social-app{
-        width: calc(100% / 4);
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 992px){
-    div.social-app{
-        width: calc(100% / 5);
-    }
-} */
-
-.riempitore{
-    height: 150px;
-    background-color: bisque;
-    border: 1px solid black;
-}
