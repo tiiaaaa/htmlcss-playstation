@@ -1,3 +1,15 @@
+.ciao{
+    height: 200px;
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+
+.riempitore{
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgb(127, 229, 255);
+}
+
 /* Classi x COLORE BACKGROUND */
 .bck-light-grey{
     background-color: lightgrey;
@@ -39,9 +51,6 @@ div.my-jb-text{
     width: 250px;
 }
 
-/* SECONDA SEZIONE My Console */
-
-
 /* TERZA SEZIONE My-Game-Banner */
 section#my-game-banner{
     /* height: 70vh; */
@@ -64,46 +73,9 @@ section#social{
     height: 400px;
 }
 
-div.social-app{
-    width: calc(100% / 8);
-    height: 100px;
-    background-color: red;
-    border: 1px solid black;
-}
-
-
-
-/* MEDIE QUERY */
-/* SECONDA SEZIONE My Console - Medie x Row (3) */
-/* @media screen and (max-width: 576px){
-    div.my-gadjet{
-        width: calc(100% / 3);
-    }
-}
-
-@media screen and (max-width: 768px){
-    div.my-gadjet{
-        width: calc(100% / 3);
-    }
-} */
-
-/* QUARTA SEZIONE My-Game-Card */
-/* Modifica la dimensione degli elementi quando la grandezza della viewport è da 0 a 992px */
-/* @media screen and (max-width: 992px){
-    div.my-game-card{
-        width: calc((100% / 3) - .5rem);
-    }
-} */
-
-/* Modifica la dimensione degli elementi quando la grandezza della viewport da 0 a 576px */
-/* @media screen and (max-width: 576px){
-    div.my-game-card{
-        width: calc((100% / 2) - .5rem);
-    }
-} */
 
 /* MEDIE FOOTER */
-@media screen and (max-width: 576px){
+/* @media screen and (max-width: 576px){
     div.social-app{
         width: calc(100% / 2);
     }
@@ -119,4 +91,4 @@ div.social-app{
     div.social-app{
         width: calc(100% / 5);
     }
-}
+} */
