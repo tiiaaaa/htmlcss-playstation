@@ -82,12 +82,11 @@ img.plus-img{
 
 /* FOOTER */
 img#play-footer-logo{
-    width: 20%;
-    min-width: 130px;
+    width: 100px;
+    margin-bottom: 1.5rem;
 }
 
 img#sie-footer-logo{
-    width: 25%;
-    min-width: 110px;
+    height: 3rem;
 }
 
